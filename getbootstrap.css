@@ -103,7 +103,7 @@ a {
     padding: 2rem 2rem;
     border-radius: .3rem;
     float: left;
-    width: 800px;
+    max-width: 80%;
 }
 
 .hello h1 {
@@ -113,7 +113,7 @@ a {
 
 .headings {
     display: inline-block;
-    width: 300px;
+    width: 280px;
     max-width: 100%;
 }
 
