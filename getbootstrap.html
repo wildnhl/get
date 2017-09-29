@@ -6,10 +6,12 @@
               
                   <!-- Bootstrap CSS -->
                   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+                  <!--<link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">-->
+                  <link href="https://v4-alpha.getbootstrap.com/examples/offcanvas/offcanvas.css" rel="stylesheet">
                   <link href="getbootstrap.css" rel="stylesheet">
                 </head>
                 <body>
-                                <div class="sticky-top"><nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
                                 <a class="navbar-brand" href="#">Navbar</a>
                                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                                 <span class="navbar-toggler-icon"></span>
@@ -44,13 +46,17 @@
                                                   </form>
                                                 </div>
                                               </nav>
-                                              </div>
+                                              
                                         <div class="container">
-                                                <div class="row row-offcanvas row-offcanvas-right">
+                                                <div class="row row-offcanvas row-offcanvas-right active">
+                                                  <div class="col-12 col-md-9">
+                                                    <p class="float-right hidden-md-up">
+                                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
+                                                    </p>
                                               <div class="jumbotron">
                                                         <h1 class="display-6">Hello, world!</h1>
-                                                        <p class="lead">This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p> 
-                                                      </div>
+                                                        <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p> 
+                                              </div>
                                                       <div class="row">
                                                         <div class="col-6 col-lg-4">
                                                                 <h2>Heading</h2>
@@ -82,13 +88,29 @@
                                                                 <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                                                                 <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
                                                         </div>
-                                                      </div>        
+                                                      </div>  
+                                                    </div>  
+                                                    <div class="col-6 col-md-3 sidebar-offcanvas" id="sidebar">
+                                                        <div class="list-group">
+                                                            <a href="#" class="list-group-item active">Link</a>
+                                                            <a href="#" class="list-group-item">Link</a>
+                                                            <a href="#" class="list-group-item">Link</a>
+                                                            <a href="#" class="list-group-item">Link</a>
+                                                            <a href="#" class="list-group-item">Link</a>
+                                                            <a href="#" class="list-group-item">Link</a>
+                                                            <a href="#" class="list-group-item">Link</a>
+                                                            <a href="#" class="list-group-item">Link</a>
+                                                            <a href="#" class="list-group-item">Link</a>
+                                                            <a href="#" class="list-group-item">Link</a>
+                                                          </div>
+                                                        </div>   
                                         </div>
                                         <hr>
                                         <footer>
                                                 <p>© Company 2017</p>
                                         </footer>
                                         </div>
+                                  
                   <!-- Optional JavaScript -->
                   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
                   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

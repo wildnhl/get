@@ -3,12 +3,10 @@
 }
 
 .dropdown-toggle::after {
-    display: inline-block;
     width: 0;
     height: 0;
     margin-left: 1px;
     vertical-align: middle;
-    content: "";
     border-top: .28em solid;
     border-right: .28em solid transparent;
     border-left: .28em solid transparent;
@@ -24,3 +22,8 @@
     background-color: #fff;
     border-color: #ccc;
 }
+
+.bg-black {
+    background: #292b2c;
+}
+
