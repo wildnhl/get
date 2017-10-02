@@ -2,28 +2,10 @@
     color: rgba(255,255,255,.5);
 }
 
-.dropdown-toggle::after {
-    width: 0;
-    height: 0;
-    margin-left: 1px;
-    vertical-align: middle;
-    border-top: .28em solid;
-    border-right: .28em solid transparent;
-    border-left: .28em solid transparent;
-}
+
 
 .nav-link.disabled {
     color: #636c72;
     cursor: not-allowed;
-}
-
-.btn-secondary {
-    color: #292b2c;
-    background-color: #fff;
-    border-color: #ccc;
-}
-
-.bg-black {
-    background: #292b2c;
 }
 
